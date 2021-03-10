@@ -1,5 +1,9 @@
 Webpack
- -Dev
- -Production
+    Babel
+    Scss
+    Eslint
+    2 Modes
+        -Dev
+        -Production
 
 Git

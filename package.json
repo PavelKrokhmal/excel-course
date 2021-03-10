@@ -1,0 +1,23 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "Pure JS Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelKrokhmal/excel-course.git"
+  },
+  "keywords": [
+    "JS",
+    "excel"
+  ],
+  "author": "Pavel Krokhmal <pavel.krokhmal.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelKrokhmal/excel-course/issues"
+  },
+  "homepage": "https://github.com/PavelKrokhmal/excel-course#readme"
+}
