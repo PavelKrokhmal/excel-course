@@ -14,5 +14,6 @@
     "quotes": "off",
     "linebreak-style": "off",
     "indent": "off"
+    // "space-before-function-paren": ["error", "always"]
   }
 }
