@@ -63,10 +63,13 @@ class Dom {
 
   css(styles = {}) {
     Object.assign(this.$el.style, styles)
+  }
 
-    // Object.keys(styles).forEach((k) => {
-    //   this.$el.style[k] = styles[k]
-    // })
+  getStyles(styles = []) {
+    return styles.reduce((res, s) => {
+      res[s] = this.$el.style[s]
+      return res
+    }, {})
   }
 
   addClass(className) {
@@ -95,8 +98,16 @@ class Dom {
     return this
   }
 
+  attr(name, value) {
+    if (value) {
+      this.$el.setAttribute(name, value)
+      return this
+    }
+    return this.$el.getAttribute(name)
+  }
+
   text(text) {
-    if (typeof text === 'string') {
+    if (typeof text !== 'undefined') {
       this.$el.textContent = text
       return this
     }
