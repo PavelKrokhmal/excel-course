@@ -1,5 +1,3 @@
-import { $ } from "../../core/dom";
-
 export class TableSelection {
   static className = "selected";
 
@@ -8,7 +6,6 @@ export class TableSelection {
     this.current = null;
   }
 
-  // $el = instanceof DOM
   select($el) {
     this.clear();
     $el.focus().addClass(TableSelection.className);
