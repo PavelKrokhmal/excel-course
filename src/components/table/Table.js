@@ -1,12 +1,11 @@
-import { ExcelComponent } from '../../core/ExcelComponent'
+import { ExcelComponent } from '@core/ExcelComponent'
 import { createTable } from './table.template'
-import { $ } from '../../core/dom'
+import { $ } from '@core/dom'
 import { resizeHandler } from './table.resize'
 import { isCell, matrix, nextSelector, shouldResize } from './table.functions'
 import { TableSelection } from './TableSelection'
-import { TABLE_RESIZE } from '../../redux/types'
-import * as actions from '../../redux/actions'
-import { defaultStyles } from '../../constants'
+import * as actions from '@/redux/actions'
+import { defaultStyles } from '@/constants'
 import { parse } from '@core/parse'
 
 export class Table extends ExcelComponent {
