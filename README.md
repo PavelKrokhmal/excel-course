@@ -2,8 +2,9 @@
 
 ---
 
-Self-study course of advanced JavaScript by Vladilen Minin
-The target is to create excel-like web-app
+Self-study course of advanced JavaScript by Vladilen Minin.
+
+The target is to create excel-like web-app.
 
 Used technologies: HTML, SCSS, JavaScript, Redux, Webpack 5, ESlint, Jest
 
