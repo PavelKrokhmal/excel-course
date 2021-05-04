@@ -6,7 +6,6 @@
     "node": true
   },
   "extends": ["eslint:recommended", "google"],
-  "plugins": ["jest"],
   "rules": {
     "semi": "off",
     "object-curly-spacing": "off",
