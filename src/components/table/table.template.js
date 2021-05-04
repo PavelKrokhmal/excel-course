@@ -8,7 +8,7 @@ const CODES = {
 }
 
 const DEFAULT_WIDTH = 120
-const DEFAULT_HEIGHT = 20
+const DEFAULT_HEIGHT = 24
 
 function getWidth(state, index) {
   return (state[index] || DEFAULT_WIDTH) + 'px'
@@ -27,13 +27,13 @@ function toCell(state, row) {
       ...state.stylesState[id]})
     return `
       <div class="cell" 
-      contenteditable 
-      data-col="${col}"
-      data-type="cell"
-      data-value="${data}"
-      style="width: ${getWidth(state.colState, col)}; ${styles};" 
-      data-id="${id}">
-      ${data}
+        contenteditable 
+        data-col="${col}"
+        data-type="cell"
+        data-value="${data}"
+        style="width: ${getWidth(state.colState, col)}; ${styles};" 
+        data-id="${id}">
+        ${data}
       </div>
     `
   }
