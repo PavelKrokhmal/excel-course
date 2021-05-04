@@ -1,2 +1,0 @@
-git push -u origin <branch>
-git checkout -b <branch>
