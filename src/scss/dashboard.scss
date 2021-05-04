@@ -50,6 +50,10 @@
 
   &__table {
     padding: 1rem;
+
+    &__empty {
+      font-size: 14px;
+    }
   }
 
   &__list-header {
