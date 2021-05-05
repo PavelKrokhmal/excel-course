@@ -17,6 +17,6 @@ Practice: localStorage, routing, state, SOLID, unit-testing
 ```
 $ git clone https://github.com/PavelKrokhmal/excel-course
 $ cd ./excel-course
-$ npm init
+$ npm install
 $ npm run start
 ```
